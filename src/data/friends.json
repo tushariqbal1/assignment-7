@@ -1,0 +1,151 @@
+[
+  {
+    "id": 1,
+    "name": "Emma Wilson",
+    "picture": "https://picsum.photos/id/64/300/300",
+    "email": "emma.wilson@email.com",
+    "days_since_contact": 62,
+    "status": "overdue",
+    "tags": [
+      "former colleague",
+      "great mentor"
+    ],
+    "bio": "Former colleague and great mentor. Always inspiring with her leadership and kindness.",
+    "goal": 30,
+    "next_due_date": "2026-02-27"
+  },
+  {
+    "id": 2,
+    "name": "David Kim",
+    "picture": "https://picsum.photos/id/91/300/300",
+    "email": "david.kim@email.com",
+    "days_since_contact": 45,
+    "status": "almost due",
+    "tags": [
+      "college",
+      "close friend"
+    ],
+    "bio": "Met during university. We bond over hiking, tech, and late-night philosophy talks.",
+    "goal": 21,
+    "next_due_date": "2026-03-10"
+  },
+  {
+    "id": 3,
+    "name": "Lisa Nakamura",
+    "picture": "https://picsum.photos/id/1027/300/300",
+    "email": "lisa.nakamura@email.com",
+    "days_since_contact": 8,
+    "status": "on-track",
+    "tags": [
+      "work",
+      "mentor"
+    ],
+    "bio": "Current colleague and mentor. Loves Japanese cuisine and photography.",
+    "goal": 14,
+    "next_due_date": "2026-04-20"
+  },
+  {
+    "id": 4,
+    "name": "James Wright",
+    "picture": "https://picsum.photos/id/201/300/300",
+    "email": "james.wright@email.com",
+    "days_since_contact": 3,
+    "status": "on-track",
+    "tags": [
+      "gym buddy",
+      "friend"
+    ],
+    "bio": "Gym partner and good friend. We motivate each other to stay consistent.",
+    "goal": 7,
+    "next_due_date": "2026-04-18"
+  },
+  {
+    "id": 5,
+    "name": "Sarah Chen",
+    "picture": "https://picsum.photos/id/669/300/300",
+    "email": "sarah.chen@email.com",
+    "days_since_contact": 19,
+    "status": "almost due",
+    "tags": [
+      "childhood friend"
+    ],
+    "bio": "Childhood best friend. We grew up together and still share everything.",
+    "goal": 30,
+    "next_due_date": "2026-04-05"
+  },
+  {
+    "id": 6,
+    "name": "Marcus Johnson",
+    "picture": "https://picsum.photos/id/883/300/300",
+    "email": "marcus.j@email.com",
+    "days_since_contact": 12,
+    "status": "on-track",
+    "tags": [
+      "work",
+      "team lead"
+    ],
+    "bio": "Former team lead. Wise, calm, and always gives great career advice.",
+    "goal": 21,
+    "next_due_date": "2026-04-25"
+  },
+  {
+    "id": 7,
+    "name": "Aisha Rahman",
+    "picture": "https://picsum.photos/id/1011/300/300",
+    "email": "aisha.rahman@email.com",
+    "days_since_contact": 35,
+    "status": "almost due",
+    "tags": [
+      "cousin",
+      "family"
+    ],
+    "bio": "My favorite cousin. We used to play together as kids and still catch up over food and family stories.",
+    "goal": 30,
+    "next_due_date": "2026-04-10"
+  },
+  {
+    "id": 8,
+    "name": "Ryan Patel",
+    "picture": "https://picsum.photos/id/870/300/300",
+    "email": "ryan.patel@email.com",
+    "days_since_contact": 78,
+    "status": "overdue",
+    "tags": [
+      "school friend",
+      "cricket"
+    ],
+    "bio": "Old school friend and cricket teammate. Always makes me laugh with his jokes.",
+    "goal": 45,
+    "next_due_date": "2026-03-01"
+  },
+  {
+    "id": 9,
+    "name": "Priya Sharma",
+    "picture": "https://picsum.photos/id/1025/300/300",
+    "email": "priya.sharma@email.com",
+    "days_since_contact": 22,
+    "status": "on-track",
+    "tags": [
+      "neighbor",
+      "yoga"
+    ],
+    "bio": "My next-door neighbor. We often do morning yoga together and share books.",
+    "goal": 14,
+    "next_due_date": "2026-04-22"
+  },
+  {
+    "id": 10,
+    "name": "Alex Thompson",
+    "picture": "https://picsum.photos/id/238/300/300",
+    "email": "alex.thompson@email.com",
+    "days_since_contact": 51,
+    "status": "almost due",
+    "tags": [
+      "university",
+      "music"
+    ],
+    "bio": "University batchmate and music lover. We used to jam together in the hostel.",
+    "goal": 30,
+    "next_due_date": "2026-03-25"
+  }
+]
