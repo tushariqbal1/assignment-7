@@ -25,7 +25,7 @@ const Home = () => {
       <div className="text-center mb-12">
         <h1 className="text-4xl font-bold text-gray-900 mb-3">Friends to keep close in your life</h1>
         <p className="text-gray-600 max-w-md mx-auto">Your personal shelf of meaningful connections. Browse, tend, and nurture the relationships that matter most.</p>
-        <button className="mt-6 bg-emerald-600 hover:bg-emerald-700 text-white px-6 py-3 rounded-2xl flex items-center gap-2 mx-auto font-medium">
+        <button className="mt-6 cursor-pointer bg-emerald-600 hover:bg-emerald-700 text-white px-6 py-3 rounded-2xl flex items-center gap-2 mx-auto font-medium">
           + Add a Friend
         </button>
       </div>

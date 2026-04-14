@@ -5,10 +5,8 @@ const Navbar = () => {
   return (
     <nav className="bg-white border-b border-gray-200 px-6 py-5 flex items-center justify-between sticky top-0 z-50 shadow-sm">
       <div className="flex items-center gap-3">
-        <div className="w-9 h-9 bg-emerald-600 rounded-2xl flex items-center justify-center text-white font-bold text-2xl">
-          K
-        </div>
-        <span className="font-semibold text-2xl tracking-tight">KeenKeeper</span>
+
+        <span className="font-semibold text-2xl tracking-tight">Keen<span className='text-emerald-600'>Keeper</span></span>
       </div>
 
       <div className="flex gap-8 text-sm font-medium">

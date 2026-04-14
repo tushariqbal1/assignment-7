@@ -15,16 +15,14 @@ const Footer = () => {
         </p>
 
         <div className="flex justify-center gap-6 text-2xl mb-8">
-          {/* <span><img src="/public/assets/instagram.png" alt="" /></span>
-          <span><img src="/public/assets/facebook.png" alt="" /></span>
-          <span><img src="/public/assets/twitter.png" alt="" /></span> */}
           <FaInstagramSquare className="text-black bg-white p-1 rounded-full cursor-pointer" />
           <FaFacebook className="text-black bg-white p-1 rounded-full cursor-pointer"/>
           <FaXTwitter className="text-black bg-white p-1 rounded-full cursor-pointer"/>
         </div>
 
-        <div className="text-xs text-emerald-400 pt-6 border-t border-emerald-900">
-          © 2026 KeenKeeper. All rights reserved.
+        <div className="text-xs text-emerald-400 pt-6 border-t border-emerald-900 flex justify-between">
+          <p>© 2026 KeenKeeper. All rights reserved.</p>
+          <p>Privacy Policy           Terms of Service           Cookies</p>
         </div>
       </div>
     </footer>
