@@ -1,16 +1,42 @@
-# React + Vite
+# 👥 FriendFlow
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+FriendFlow হলো একটি সুন্দর ও সহজ ওয়েব অ্যাপ্লিকেশন যা তোমাকে তোমার বন্ধুবান্ধব এবং পরিবারের সাথে যোগাযোগ বজায় রাখতে সাহায্য করে। এখানে তুমি দেখতে পারবে কবে শেষবার কার সাথে কথা বলেছো, কোন বন্ধুর সাথে যোগাযোগ কমে গেছে, এবং তোমার সম্পর্কগুলো কেমন চলছে — সবকিছু এক জায়গায়।
 
-Currently, two official plugins are available:
+## 🌟 প্রধান ফিচারসমূহ
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- বন্ধুদের লিস্ট দেখা এবং তাদের স্ট্যাটাস ট্র্যাক করা (Overdue, Almost Due, On Track)
+- প্রত্যেক বন্ধুর বিস্তারিত প্রোফাইল দেখা (ছবি, বায়ো, ট্যাগ, ইমেইল)
+- এক ক্লিকে Call, Text বা Video Call লগ করা
+- পুরো ইন্টারেকশনের টাইমলাইন দেখা
+- Friendship Analytics পেজে সুন্দর Pie Chart দিয়ে দেখানো হয়েছে কতবার Call, Text, Video করা হয়েছে
+- সম্পূর্ণ রেসপনসিভ ডিজাইন — মোবাইল, ট্যাবলেট ও ডেস্কটপে ভালো কাজ করে
 
-## React Compiler
+## 🛠️ ব্যবহৃত টেকনোলজি
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React.js + Vite
+- React Router DOM (পেজ নেভিগেশনের জন্য)
+- Tailwind CSS (সুন্দর ও রেসপনসিভ ডিজাইনের জন্য)
+- Recharts (Analytics Pie Chart বানানোর জন্য)
+- React Toastify (নোটিফিকেশন দেখানোর জন্য)
+- localStorage (ডেটা সেভ করার জন্য)
 
-## Expanding the ESLint configuration
+## ✨ আমার প্রজেক্টের সেরা ৩টি ফিচার
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. **Quick Check-In** — বন্ধুর প্রোফাইলে গিয়ে এক ক্লিকেই Call, Text বা Video লগ করা যায় এবং তাৎক্ষণিকভাবে টাইমলাইনে যোগ হয়।
+2. **Smart Status System** — বন্ধুর সাথে কতদিন যোগাযোগ হয়নি তার উপর ভিত্তি করে স্বয়ংক্রিয়ভাবে রঙিন স্ট্যাটাস দেখায়।
+3. **Friendship Analytics** — Recharts লাইব্রেরি ব্যবহার করে সুন্দর Pie Chart-এ দেখানো হয়েছে তোমার ইন্টারেকশনের ধরন (Call, Text, Video)।
+
+## 🖼️ প্রজেক্টের কিছু স্ক্রিনশট
+
+*(এখানে তোমার প্রজেক্ট চালিয়ে ৩-৪টা স্ক্রিনশট যোগ করো)*
+
+- হোম পেজে বন্ধুদের কার্ড
+- বন্ধুর ডিটেইলস পেজ
+- টাইমলাইন পেজ
+- Stats / Analytics পেজ
+
+## 🚀 লোকালি কীভাবে রান করবো?
+
+1. রিপোজিটরি ক্লোন করো:
+   ```bash
+   git clone https://github.com/yourusername/friendflow.git
