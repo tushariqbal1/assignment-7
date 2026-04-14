@@ -25,6 +25,7 @@ const Stats = () => {
       <h1 className="text-4xl font-bold mb-10 text-center">Friendship Analytics</h1>
       
       <div className="bg-white p-10 rounded-3xl shadow-sm border border-gray-100">
+        <p className='text-[20px] font-medium text-emerald-600'>By Interaction Type</p>
         <ResponsiveContainer width="100%" height={400}>
           <PieChart>
             <Pie
