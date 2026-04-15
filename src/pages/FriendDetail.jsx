@@ -120,7 +120,7 @@ const FriendDetail = () => {
           <p className="text-2xl font-medium"><span className='text-[#64748B]'>Connect every</span> {friend.goal} days</p>
         </div>
 
-        {/* Quick Check-In */}
+       
         <div className="bg-white p-8 rounded-3xl border border-gray-100">
           <h3 className="font-semibold text-lg text-emerald-600 mb-6">Quick Check-In</h3>
           <div className="grid grid-cols-3 gap-4">

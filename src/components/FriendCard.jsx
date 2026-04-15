@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 
 const FriendCard = ({ friend }) => {
-  // Status Badge Color
+  // friend card e badge er color
   const getStatusStyle = (status) => {
     switch (status) {
       case 'overdue':
@@ -15,7 +15,7 @@ const FriendCard = ({ friend }) => {
     }
   };
 
-  // Tag Color (ছবির মতো)
+  // card er tag gular color
   const getTagStyle = (tag) => {
     const tagLower = tag.toLowerCase();
     if (tagLower.includes('work') || tagLower.includes('colleague')) 
@@ -31,7 +31,7 @@ const FriendCard = ({ friend }) => {
     <Link to={`/friend/${friend.id}`} className="block group">
       <div className="bg-white rounded-3xl overflow-hidden shadow-sm border border-gray-100 hover:shadow-md transition-all duration-300 hover:-translate-y-1 h-full flex flex-col">
         
-        {/* Photo Section */}
+        {/* friend's photo */}
         <div className="h-48 bg-gray-100 relative">
           <img 
             src={friend.picture} 
@@ -40,18 +40,18 @@ const FriendCard = ({ friend }) => {
           />
         </div>
 
-        {/* Content */}
+        {/* friend's name */}
         <div className="p-5 flex flex-col flex-1">
           <h3 className="font-semibold text-lg text-gray-900 text-center">
             {friend.name}
           </h3>
 
-          {/* Days Ago */}
+          {/* day er num */}
           <p className="text-center text-sm text-gray-500 mt-1">
             {friend.days_since_contact}d ago
           </p>
 
-          {/* Tags */}
+          {/* friend's tag */}
           <div className="flex flex-wrap justify-center gap-2 mt-4">
             {friend.tags.map((tag, index) => (
               <span 
@@ -63,7 +63,7 @@ const FriendCard = ({ friend }) => {
             ))}
           </div>
 
-          {/* Status Badge - Bottom */}
+         {/* tag er nicher badge */}
           <div className="mt-auto pt-6">
             <div className={`mx-auto w-fit px-6 py-1.5 rounded-full text-sm font-semibold text-center ${getStatusStyle(friend.status)}`}>
               {friend.status === 'overdue' ? 'Overdue' : 
