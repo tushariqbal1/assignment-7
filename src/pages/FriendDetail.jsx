@@ -30,7 +30,7 @@ const FriendDetail = () => {
       friendId: friend.id
     };
 
-    // Save to localStorage (for Timeline page)
+    // local storage e save koro
     const timeline = JSON.parse(localStorage.getItem('timeline')) || [];
     timeline.unshift(entry);
     localStorage.setItem('timeline', JSON.stringify(timeline));
@@ -50,16 +50,16 @@ const FriendDetail = () => {
 
   return (
     <div className="max-w-6xl mx-auto px-6 py-10 grid md:grid-cols-2 gap-10">
-      {/* Left Column - Friend Info */}
+      {/* left side friend info */}
       <div className="bg-white rounded-3xl p-8 shadow-sm border border-gray-100">
         <div className="flex flex-col items-center text-center">
-          <img 
-            src={friend.picture} 
+          <img
+            src={friend.picture}
             alt={friend.name}
             className="w-40 h-40 rounded-2xl object-cover border-4 border-white shadow-md"
           />
           <h1 className="text-3xl font-bold mt-6">{friend.name}</h1>
-          
+
           <span className={`mt-3 px-5 py-1.5 rounded-full text-sm font-medium border ${statusColor[friend.status]}`}>
             {friend.status.toUpperCase().replace('-', ' ')}
           </span>
@@ -76,26 +76,26 @@ const FriendDetail = () => {
           <p className="mt-4 text-sm text-gray-500">{friend.email}</p>
         </div>
 
-        {/* Action Buttons */}
+        {/* left side column er nicher 3 ta btn */}
         <div className="grid grid-cols-3 gap-4 mt-12">
-          <button className="flex flex-col items-center gap-2 p-4 hover:bg-gray-50 rounded-2xl transition">
+          <button className="flex flex-col items-center gap-2 p-4 hover:bg-gray-100 text-emerald-600 rounded-2xl transition cursor-pointer border border-emerald-600">
             <Clock className="text-emerald-600" size={28} />
             <span className="text-xs font-medium">Snooze 2 Weeks</span>
           </button>
-          <button className="flex flex-col items-center gap-2 p-4 hover:bg-gray-50 rounded-2xl transition">
+          <button className="flex flex-col items-center gap-2 p-4 hover:bg-gray-100 text-amber-600 rounded-2xl transition cursor-pointer border border-amber-600">
             <Archive className="text-amber-600" size={28} />
             <span className="text-xs font-medium">Archive</span>
           </button>
-          <button className="flex flex-col items-center gap-2 p-4 hover:bg-gray-50 rounded-2xl transition text-red-600">
+          <button className="flex flex-col items-center gap-2 p-4 hover:bg-gray-100 rounded-2xl transition text-red-600 cursor-pointer border border-red-600">
             <Trash2 size={28} />
             <span className="text-xs font-medium">Delete</span>
           </button>
         </div>
       </div>
 
-      {/* Right Column */}
+      {/* right side */}
       <div className="space-y-8">
-        {/* Stats Cards */}
+        
         <div className="grid grid-cols-3 gap-4">
           <div className="bg-white p-6 rounded-3xl text-center border border-gray-100">
             <p className="text-4xl font-bold text-gray-900">{friend.days_since_contact}</p>
@@ -111,40 +111,40 @@ const FriendDetail = () => {
           </div>
         </div>
 
-        {/* Relationship Goal */}
+        
         <div className="bg-white p-8 rounded-3xl border border-gray-100">
           <div className="flex justify-between items-center mb-4">
-            <h3 className="font-semibold text-lg">Relationship Goal</h3>
-            <button className="text-emerald-600 text-sm font-medium">Edit</button>
+            <h3 className="font-semibold text-lg text-emerald-600">Relationship Goal</h3>
+            <button className="text-sm font-medium">Edit</button>
           </div>
-          <p className="text-2xl font-medium">Connect every {friend.goal} days</p>
+          <p className="text-2xl font-medium"><span className='text-[#64748B]'>Connect every</span> {friend.goal} days</p>
         </div>
 
         {/* Quick Check-In */}
         <div className="bg-white p-8 rounded-3xl border border-gray-100">
-          <h3 className="font-semibold text-lg mb-6">Quick Check-In</h3>
+          <h3 className="font-semibold text-lg text-emerald-600 mb-6">Quick Check-In</h3>
           <div className="grid grid-cols-3 gap-4">
-            <button 
+            <button
               onClick={() => addInteraction('Call')}
-              className="flex flex-col items-center gap-3 p-6 hover:bg-emerald-50 rounded-3xl transition border border-gray-100 hover:border-emerald-200"
+              className="flex flex-col items-center gap-3 p-6 hover:bg-emerald-50 rounded-3xl transition border border-gray-100 hover:text-emerald-600 hover:border-emerald-200 cursor-pointer"
             >
-              <Phone className="text-emerald-600" size={32} />
+              <Phone className="" size={32} />
               <span className="font-medium">Call</span>
             </button>
-            
-            <button 
+
+            <button
               onClick={() => addInteraction('Text')}
-              className="flex flex-col items-center gap-3 p-6 hover:bg-emerald-50 rounded-3xl transition border border-gray-100 hover:border-emerald-200"
+              className="flex flex-col items-center gap-3 p-6 hover:bg-emerald-50 rounded-3xl transition border border-gray-100 hover:border-emerald-200 hover:text-emerald-600 cursor-pointer"
             >
-              <MessageCircle className="text-emerald-600" size={32} />
+              <MessageCircle className="" size={32} />
               <span className="font-medium">Text</span>
             </button>
-            
-            <button 
+
+            <button
               onClick={() => addInteraction('Video')}
-              className="flex flex-col items-center gap-3 p-6 hover:bg-emerald-50 rounded-3xl transition border border-gray-100 hover:border-emerald-200"
+              className="flex flex-col items-center gap-3 p-6 hover:bg-emerald-50 hover:text-emerald-600 rounded-3xl transition border border-gray-100 hover:border-emerald-200 cursor-pointer"
             >
-              <Video className="text-emerald-600" size={32} />
+              <Video className="" size={32} />
               <span className="font-medium">Video</span>
             </button>
           </div>
