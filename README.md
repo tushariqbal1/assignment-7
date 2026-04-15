@@ -1,16 +1,25 @@
-# React + Vite
+# 👥 FriendFlow
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+FriendFlow is a simple and elegant web application that helps you stay connected with your friends and family. It allows you to track when you last interacted with someone, identify which connections need attention, and get an overall view of your relationships — all in one place.
 
-Currently, two official plugins are available:
+## 🌟 Key Features
+View your friends list and track their status (Overdue, Almost Due, On Track)
+See detailed profiles for each friend (photo, bio, tags, email)
+Log a Call, Text, or Video Call with a single click
+View a complete interaction timeline
+Explore the Friendship Analytics page with a beautiful Pie Chart showing Call, Text, and Video interactions
+Fully responsive design — works seamlessly on mobile, tablet, and desktop
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🛠️ Technologies Used
+1. React.js + Vite
+2. React Router DOM (for page navigation)
+3. Tailwind CSS (for clean and responsive design)
+4. Recharts (for building analytics Pie Charts)
+5. React Toastify (for notifications)
+6. localStorage (for data persistence)
 
-## React Compiler
+## ✨ Top 3 Best Features
+1. Quick Check-In — Instantly log a Call, Text, or Video interaction from a friend’s profile, and it updates the timeline in real time.
+2. Smart Status System — Automatically assigns a color-coded status based on how long it’s been since your last interaction.
+3. Friendship Analytics — Displays your interaction types (Call, Text, Video) in a visually appealing Pie Chart using Recharts.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
