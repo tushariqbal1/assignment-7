@@ -9,17 +9,17 @@ const Footer = () => {
           <span className="font-semibold text-5xl tracking-tight text-white">KeenKeeper</span>
         </div>
 
-        <p className="text-emerald-300 max-w-md mx-auto mb-8">
+        <p className="text-white mx-auto mb-8">
           Your personal shelf of meaningful connections. Browse, tend, and nurture the relationships that matter most.
         </p>
 
         <div className="flex justify-center gap-6 text-2xl mb-8">
-          <FaInstagramSquare className="text-black bg-white p-1 rounded-full cursor-pointer" />
-          <FaFacebook className="text-black bg-white p-1 rounded-full cursor-pointer" />
-          <FaXTwitter className="text-black bg-white p-1 rounded-full cursor-pointer" />
+          <FaInstagramSquare className="text-black bg-white p-1 rounded-full cursor-pointer w-7 h-7" />
+          <FaFacebook className="text-black bg-white p-1 rounded-full cursor-pointer w-7 h-7" />
+          <FaXTwitter className="text-black bg-white p-1 rounded-full cursor-pointer w-7 h-7" />
         </div>
 
-        <div className="text-xs text-emerald-400 pt-6 border-t border-emerald-900 flex flex-col md:flex-row md:justify-between md:items-center gap-2 md:gap-0 text-center md:text-left">
+        <div className="text-xs text-[#FAFAFA] pt-6 border-t border-emerald-900 flex flex-col md:flex-row md:justify-between md:items-center gap-2 md:gap-0 text-center md:text-left">
           <p>© 2026 KeenKeeper. All rights reserved.</p>
 
           <p className="flex flex-col sm:flex-row sm:justify-center md:justify-end gap-1 sm:gap-4">
