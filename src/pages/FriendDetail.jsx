@@ -93,12 +93,12 @@ const FriendDetail = () => {
         </div>
       </div>
 
-      {/* right side */}
+   
       <div className="space-y-8">
         
         <div className="grid grid-cols-3 gap-4">
           <div className="bg-white p-6 rounded-3xl text-center border border-gray-100">
-            <p className="text-4xl font-bold text-gray-900">{friend.days_since_contact}</p>
+            <p className="text-4xl font-bold text-emerald-600">{friend.days_since_contact}</p>
             <p className="text-xs text-gray-500 mt-1">Days Since Contact</p>
           </div>
           <div className="bg-white p-6 rounded-3xl text-center border border-gray-100">
@@ -106,7 +106,7 @@ const FriendDetail = () => {
             <p className="text-xs text-gray-500 mt-1">Goal (Days)</p>
           </div>
           <div className="bg-white p-6 rounded-3xl text-center border border-gray-100">
-            <p className="text-lg font-semibold">{friend.next_due_date}</p>
+            <p className="text-lg font-semibold text-emerald-600">{friend.next_due_date}</p>
             <p className="text-xs text-gray-500 mt-1">Next Due</p>
           </div>
         </div>
@@ -115,7 +115,7 @@ const FriendDetail = () => {
         <div className="bg-white p-8 rounded-3xl border border-gray-100">
           <div className="flex justify-between items-center mb-4">
             <h3 className="font-semibold text-lg text-emerald-600">Relationship Goal</h3>
-            <button className="text-sm font-medium">Edit</button>
+            <button className="text-sm font-medium btn">Edit</button>
           </div>
           <p className="text-2xl font-medium"><span className='text-[#64748B]'>Connect every</span> {friend.goal} days</p>
         </div>

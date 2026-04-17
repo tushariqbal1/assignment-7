@@ -17,11 +17,11 @@ const Home = () => {
   const totalFriends = friends.length;
   const onTrack = friends.filter(f => f.status === 'on-track').length;
   const needAttention = friends.filter(f => f.status === 'overdue' || f.status === 'almost due').length;
-  const interactionsThisMonth = 42; // Dummy
+  const interactionsThisMonth = 42; 
 
   return (
     <div className="max-w-6xl mx-auto px-6 pt-10">
-      {/* Banner */}
+    
       <div className="text-center mb-12">
         <h1 className="text-4xl font-bold text-gray-900 mb-3">Friends to keep close in your life</h1>
         <p className="text-gray-600 max-w-md mx-auto">Your personal shelf of meaningful connections. Browse, tend, and nurture the relationships that matter most.</p>
@@ -30,7 +30,7 @@ const Home = () => {
         </button>
       </div>
 
-      {/* Summary Cards */}
+      
       <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-12">
         <div className="bg-white p-6 rounded-3xl shadow-sm border border-gray-100">
           <p className="text-gray-500 text-sm">Total Friends</p>
@@ -50,7 +50,7 @@ const Home = () => {
         </div>
       </div>
 
-      {/* Friends Grid */}
+    
       <h2 className="text-2xl font-semibold mb-6">Your Friends</h2>
       
       {loading ? (

@@ -12,7 +12,7 @@
     ],
     "bio": "Former colleague and great mentor. Always inspiring with her leadership and kindness.",
     "goal": 30,
-    "next_due_date": "2026-02-27"
+    "next_due_date": "Feb 27, 2026"
   },
   {
     "id": 2,
@@ -27,7 +27,7 @@
     ],
     "bio": "Met during university. We bond over hiking, tech, and late-night philosophy talks.",
     "goal": 21,
-    "next_due_date": "2026-03-10"
+    "next_due_date": "Mar 03, 2026"
   },
   {
     "id": 3,
@@ -42,7 +42,7 @@
     ],
     "bio": "Current colleague and mentor. Loves Japanese cuisine and photography.",
     "goal": 14,
-    "next_due_date": "2026-04-20"
+    "next_due_date": "Apr 20, 2026"
   },
   {
     "id": 4,
@@ -57,7 +57,7 @@
     ],
     "bio": "Gym partner and good friend. We motivate each other to stay consistent.",
     "goal": 7,
-    "next_due_date": "2026-04-18"
+    "next_due_date": "Apr 18, 2026"
   },
   {
     "id": 5,
@@ -71,7 +71,7 @@
     ],
     "bio": "Childhood best friend. We grew up together and still share everything.",
     "goal": 30,
-    "next_due_date": "2026-04-05"
+    "next_due_date": "Apr 05, 2026"
   },
   {
     "id": 6,
@@ -86,7 +86,7 @@
     ],
     "bio": "Former team lead. Wise, calm, and always gives great career advice.",
     "goal": 21,
-    "next_due_date": "2026-04-25"
+    "next_due_date": "Apr 25, 2026"
   },
   {
     "id": 7,
@@ -101,7 +101,7 @@
     ],
     "bio": "My favorite cousin. We used to play together as kids and still catch up over food and family stories.",
     "goal": 30,
-    "next_due_date": "2026-04-10"
+    "next_due_date": "Apr 04, 2026"
   },
   {
     "id": 8,
@@ -116,7 +116,7 @@
     ],
     "bio": "Old school friend and cricket teammate. Always makes me laugh with his jokes.",
     "goal": 45,
-    "next_due_date": "2026-03-01"
+    "next_due_date": "Mar 01, 2026"
   },
   {
     "id": 9,
@@ -131,7 +131,7 @@
     ],
     "bio": "My next-door neighbor. We often do morning yoga together and share books.",
     "goal": 14,
-    "next_due_date": "2026-04-22"
+    "next_due_date": "Apr 22, 2026"
   },
   {
     "id": 10,
@@ -146,6 +146,6 @@
     ],
     "bio": "University batchmate and music lover. We used to jam together in the hostel.",
     "goal": 30,
-    "next_due_date": "2026-03-25"
+    "next_due_date": "Mar 25, 2026"
   }
 ]
